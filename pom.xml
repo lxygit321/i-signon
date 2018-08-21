@@ -1,0 +1,322 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--
+    **************************************************************************
+    * Parent POM.                                                            *
+    *     Uses the MDSCR standard parent base POM                            *
+    **************************************************************************
+    -->
+
+    <parent>
+        <artifactId>kr-parent-base</artifactId>
+        <groupId>ca.gc.cra.kr.apps</groupId>
+        <version>17</version>
+        <relativePath/>
+    </parent>
+
+    <!--
+    **************************************************************************
+    * Identification Area                                                    *
+    * Note: The packaging is "pom" to signify this POM file aggregates sub   *
+    * projects which are listed under the modules section.                   *
+    **************************************************************************
+    -->
+
+    <groupId>ca.gc.cra.kr.apps</groupId>
+    <artifactId>i-signon</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <!--
+    **************************************************************************
+    * User - friendly name                                                   *
+    **************************************************************************
+    -->
+
+    <name>I-Signon</name>
+
+    <!--
+    **************************************************************************
+    * URL where the project lives                                            *
+    **************************************************************************
+    -->
+
+    <url>http://maven.apache.org</url>
+
+    <!--
+    **************************************************************************
+    * Description Area                                                       *
+    *    Provides maven-description information. It is a quick (brief)       *
+    *    comment on what the project is about. This does not replace any     *
+    *    formal documentation.                                               *
+    **************************************************************************
+    -->
+
+    <description>
+        Release Coordination Services (RCS) coordinates the major family
+        application releases (January, February, Spring, Fall, Efile/Netfile)
+        for all testing “sign-on” environments - IUT, SI, UA, OT, PR, EP/EF,
+        MT, TR. RCS also coordinates health checks for Disaster Recovery
+        Exercises, and adhoc emergency releases.
+
+        Due to the number of signon testing that is regularly performed within
+        ITB, RCS requires an efficient online tool to streamline and automate
+        its current processes for their release coordination activities.
+    </description>
+
+    <inceptionYear>2018</inceptionYear>
+
+    <!--
+    **************************************************************************
+    * Developers Area                                                        *
+    *    Provides members of the project's core development who are          *
+    *    immediately responsible for the code. Rule of thumb, if the person  *
+    *    should not be contacted about the project, then that person is not  *
+    *    listed here.                                                        *
+    **************************************************************************
+    -->
+
+    <developers>
+        <developer>
+            <name>Elsa Lee</name>
+            <id>EXL131</id>
+            <email>elsa.lee@cra-arc.gc.ca</email>
+            <roles>
+                <role>IT Analyst</role>
+                <role>lead business analyst</role>
+                <role>RCS contact point for project</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Larry Foster</name>
+            <id>lxy120</id>
+            <email>larry.foster@cra-arc.gc.ca</email>
+            <roles>
+                <role>lead developer</role>
+                <role>lead analyst</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Yvon Levesque</name>
+            <id>yxl123</id>
+            <email>yvon.levesque@cra-arc.gc.ca</email>
+            <roles>
+                <role>developer</role>
+                <role>lead analyst</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <!--
+    **************************************************************************
+    * Source Control Manager Area                                            *
+    *    Provides maven-SCM information, where:                              *
+    *    - connection -> The source control management system URL that       *
+    *                    describes the respository and how to connect to it. *
+    *                    This is a read-only connection.                     *
+    *                                                                        *
+    *    - developerConnection -> Just like connection, but for developers.  *
+    *                             This not a read-only connection.           *
+    *                                                                        *
+    *    - url -> The URL to the project's browsable SCM repository. i.e. a  *
+    *             URL where anyone can browse the repository.                *
+    **************************************************************************
+    -->
+
+    <scm>
+        <connection>
+            scm:git://sd01cfvap300/production/I-Signon.git
+        </connection>
+        <developerConnection>
+            scm:git:ssh://sd01cfvap300:29418/production/I-Signon.git
+        </developerConnection>
+        <url>
+            http://sd01cfvap300:7970/summary/production%2FI-Signon.git
+        </url>
+    </scm>
+
+    <!--
+    **************************************************************************
+    * Modules Area                                                           *
+    *    Modules are projects that this POM lists, and are executed as a     *
+    *    group. The pom packaged project aggregates the build of a set of    *
+    *    projects by listing them as modules which are relative paths to the *
+    *    directories or the POM files of those projects.                     *
+    **************************************************************************
+    -->
+
+    <modules>
+        <!--
+        <module>isignon-server</module>
+        <module>isignon-client</module>
+        -->
+    </modules>
+
+    <!--
+    **************************************************************************
+    * Dependency Version and Other Properties  Area                          *
+    *     Provides single point where all version values and other build     *
+    *     properties are quickly and consistently defined.                   *
+    **************************************************************************
+    -->
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <mybatis.version>3.4.6</mybatis.version>
+        <junit-bom.version>5.3.0-RC1</junit-bom.version>
+        <hamcrest.version>1.3</hamcrest.version>
+        <commons-lang3.version>3.8</commons-lang3.version>
+        <logback-classic.version>1.2.3</logback-classic.version>
+        <slf4j-api.version>1.7.25</slf4j-api.version>
+        <gson.version>2.8.5</gson.version>
+        <junit.platform.version>1.2.0</junit.platform.version>
+        <apiguardian-version.version>1.0.0</apiguardian-version.version>
+        <postgresql-jdbc.version>42.2.4</postgresql-jdbc.version>
+    </properties>
+
+    <!--
+    **************************************************************************
+    * Dependency Management                                                  *
+    *     Allows to consolidate and centralize the management of dependency  *
+    *     versions without adding dependencies which are inherited by all    *
+    *     children. A BOM is a so called bill of materials. It bundles       *
+    *     several dependencies to assure that all the versions will work     *
+    *     together.
+    **************************************************************************
+    -->
+
+    <dependencyManagement>
+        <dependencies>
+
+            <!--
+            =======================================================================
+            = JUnit Dependencies                                                                                                                          ==
+            =======================================================================
+            -->
+
+            <dependency>
+                <groupId>org.junit</groupId>
+                <artifactId>junit-bom</artifactId>
+                <version>${junit-bom.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.hamcrest</groupId>
+                <artifactId>hamcrest-all</artifactId>
+                <version>${hamcrest.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apiguardian</groupId>
+                <artifactId>apiguardian-api</artifactId>
+                <version>${apiguardian-version.version}</version>
+            </dependency>
+
+            <!--
+            =======================================================================
+            = Database and Data-Access-Layer Dependencies                        ==
+            =======================================================================
+            -->
+
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.postgresql</groupId>
+                <artifactId>postgresql-jdbc</artifactId>
+                <version>${postgresql-jdbc.version}</version>
+            </dependency>
+
+            <!--
+            =======================================================================
+            = Other Dependencies                                                 ==
+            =======================================================================
+            -->
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j-api.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback-classic.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.code.gson</groupId>
+                <artifactId>gson</artifactId>
+                <version>${gson.version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+    <!--
+    **************************************************************************
+    * Dependencies Area                                                      *
+    *   This area identifies dependencies that would be applies to ALL child *
+    *   and this top-level projects.                                         *
+    **************************************************************************
+    -->
+
+    <dependencies>
+
+    </dependencies>
+
+    <!--
+    **************************************************************************
+    * Build Area                                                             *
+    **************************************************************************
+    -->
+
+    <build>
+
+        <!--
+        =======================================================================
+        = Plugin Management Area                                              =
+        =   This area contains plugin elements in much the same way as plugins=
+        =   except that rather than configuring plugin information for this   =
+        =   particular project build. It is intended to configure project     =
+        =   builds that inherit from this top-level one. However it only      =
+        =   configures plugins that are actually referenced within the plugins=
+        =   element in the children (sub-projects) or in the current POM.     =
+        =======================================================================
+        -->
+
+        <pluginManagement>
+
+        </pluginManagement>
+
+        <!--
+        =======================================================================
+        = Plugin Area                                                         =
+        =   This area contains plugin elements configured at the top level of =
+        =   the build.                                                        =
+        =======================================================================
+        -->
+
+        <plugins>
+            
+        </plugins>
+
+    </build>
+
+
+</project>
