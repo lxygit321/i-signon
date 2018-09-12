@@ -1,0 +1,48 @@
+<!--
+    ===========================================================================
+    The purpose of this file is to configure the mapping files to be use by
+    MyBatis to relate SQL with the corresponding Java object. Mybatis takes
+    care of transaction management and the marshalling and unmarshalling of
+    data between SQL and Java.
+    ===========================================================================
+-->
+
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--
+    ===========================================================================
+    This section identifies the Java classes where the results of selects are
+    to go to, or in the case of inserts and updates, the format of the
+    incoming data. Fully qualified Java class names can be specified here. But,
+    in the following configuration only the fully qualified package name is
+    supplied. This signifies all Java DTOs (referred to as "types" by MyBatis
+    are found in this package directory.
+    ===========================================================================
+    -->
+
+    <typeAliases>
+        <package name="ca.gc.cra.kr.apps.isignon.isignonserver.domain"/>
+    </typeAliases>
+
+    <!--
+    ===========================================================================
+    This section identifies the files containing the SQL to and the mapping to
+    / from the relevant DTO. MyBatis calls these files "mapper" files. A mapper
+    file can contain more than one select/mapping configurations. However, to
+    generally keep things easier to read, only one select / mapping
+    configuration per file is specified. The resource attibute specifies the
+    location of the mapper file relative to the directory where this file
+    is located. The file name is chosen simply to make it easier to identify
+    its contents with the relevant Java interface class file.
+    ===========================================================================
+    -->
+
+    <mappers>
+        <mapper resource="mybatis-mappers/ComponentMapper.xml"/>
+    </mappers>
+
+
+</configuration>

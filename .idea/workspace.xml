@@ -2,12 +2,137 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d983607-5dcb-45f8-93bd-a7708a905659" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_11_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_3_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_launcher_1_3_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_test_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_test_autoconfigure_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_9_4_1212.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_ldap_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_hateoas_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_ldap_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_0_25_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ldap_spring_ldap_core_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_restdocs_spring_restdocs_core_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_restdocs_spring_restdocs_mockmvc_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_core_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/isignonserver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/configuration/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/controller/ComponentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/controller/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/controller/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/controller/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/dao/PacmanComponentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/dao/PersonDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/domain/PacmanComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/domain/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/ldap/LdapRepositoryConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/ldap/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/ldap/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/mappers/PacmanComponentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/mappers/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/main/resources/mybatis-mappers/ComponentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/main/resources/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/test/java/ca/gc/cra/kr/apps/isignon/isignonserver/dao/TestPersonDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-server/src/test/java/ca/gc/cra/kr/apps/isignon/isignonserver/mappers/TestComponentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-web/isignonweb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-signon-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/I-Signon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/I-Signon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/i-signon-server/target/" />
+    <ignored path="$PROJECT_DIR$/i-signon-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,46 +143,90 @@
     <session id="-1321122378">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.49" value="2" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.71" value="1" />
+          <entry key="project.open.time.74" value="1" />
+          <entry key="project.open.time.94" value="1" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="html" value="3" />
+          <entry key="java" value="54" />
+          <entry key="json" value="1" />
           <entry key="md" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="properties" value="5" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="20" />
+          <entry key="xsd" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="HTML" value="3" />
+          <entry key="JAVA" value="54" />
+          <entry key="JSON" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="5" />
+          <entry key="XML" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="xml" value="3320" />
+          <entry key="dummy" value="24" />
+          <entry key="html" value="43" />
+          <entry key="java" value="9868" />
+          <entry key="properties" value="1203" />
+          <entry key="xml" value="7737" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="XML" value="3320" />
+          <entry key="HTML" value="43" />
+          <entry key="JAVA" value="9868" />
+          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="Properties" value="1203" />
+          <entry key="XML" value="7737" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="315" column="12" selection-start-line="315" selection-start-column="12" selection-end-line="315" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>org.springframework.boot</find>
+      <find>lombok</find>
+      <find>hamcrest</find>
+      <find>mybatis</find>
+      <find>postgresql</find>
+      <find>flyway</find>
+      <find>yxl123</find>
+      <find>YXL123</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,8 +234,54 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/i-signon-web/pom.xml" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/domain/Component.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/resources/META-INF/spring.xml" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/MySpringConfiguration.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/dao/ComponentDao.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/mappers/ComponentMapper.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/domain/PacmanComponent.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/mappers/PacmanComponentMapper.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/dao/PacmanComponentDao.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/test/java/ca/gc/cra/kr/apps/isignon/isignonserver/mappers/TestComponentMapper.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/resources/mybatis-mappers/ComponentMapper.xml" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/resources/spring.xml" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/ISignonServerApplication.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/Application.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/controller/Greeting.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/controller/GreetingController.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/configuration/MvcConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/resources/public/index.html" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/configuration/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/controller/ComponentController.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/ldap/ActiveDirectoryDomain.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/ldap/LdapRepositoryConfig.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/test/java/ca/gc/cra/kr/apps/isignon/isignonserver/ldap/TestPersonRepository.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/ldap/PersonRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/ldap/Person.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/ldap/PersonRepository.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/ldap/ActiveDirectoryAttributes.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/domain/Person.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/pom.xml" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/dao/PersonDao.java" />
+        <option value="$PROJECT_DIR$/i-signon-server/src/test/java/ca/gc/cra/kr/apps/isignon/isignonserver/dao/TestPersonDao.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="s:/" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -82,8 +297,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,17 +304,192 @@
               <item name="I-Signon" type="b2602c69:ProjectViewProjectNode" />
               <item name="I-Signon" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="I-Signon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="I-Signon" type="462c0819:PsiDirectoryNode" />
+              <item name="i-signon-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="I-Signon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="I-Signon" type="462c0819:PsiDirectoryNode" />
+              <item name="i-signon-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="I-Signon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="I-Signon" type="462c0819:PsiDirectoryNode" />
+              <item name="i-signon-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="I-Signon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="I-Signon" type="462c0819:PsiDirectoryNode" />
+              <item name="i-signon-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="I-Signon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="I-Signon" type="462c0819:PsiDirectoryNode" />
+              <item name="i-signon-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="isignonserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="I-Signon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="I-Signon" type="462c0819:PsiDirectoryNode" />
+              <item name="i-signon-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="isignonserver" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="I-Signon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="I-Signon" type="462c0819:PsiDirectoryNode" />
+              <item name="i-signon-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="isignonserver" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="I-Signon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="I-Signon" type="462c0819:PsiDirectoryNode" />
+              <item name="i-signon-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="isignonserver" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="I-Signon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="I-Signon" type="462c0819:PsiDirectoryNode" />
+              <item name="i-signon-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="isignonserver" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="I-Signon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="I-Signon" type="462c0819:PsiDirectoryNode" />
+              <item name="i-signon-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="isignonserver" type="462c0819:PsiDirectoryNode" />
+              <item name="ldap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="I-Signon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="I-Signon" type="462c0819:PsiDirectoryNode" />
+              <item name="i-signon-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="isignonserver" type="462c0819:PsiDirectoryNode" />
+              <item name="mappers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="I-Signon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="I-Signon" type="462c0819:PsiDirectoryNode" />
+              <item name="i-signon-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="I-Signon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="I-Signon" type="462c0819:PsiDirectoryNode" />
+              <item name="i-signon-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="I-Signon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="I-Signon" type="462c0819:PsiDirectoryNode" />
+              <item name="i-signon-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="I-Signon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="I-Signon" type="462c0819:PsiDirectoryNode" />
+              <item name="i-signon-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="I-Signon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="I-Signon" type="462c0819:PsiDirectoryNode" />
+              <item name="i-signon-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="I-Signon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="I-Signon" type="462c0819:PsiDirectoryNode" />
+              <item name="i-signon-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="isignonserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="I-Signon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="I-Signon" type="462c0819:PsiDirectoryNode" />
+              <item name="i-signon-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="isignonserver" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="I-Signon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="I-Signon" type="462c0819:PsiDirectoryNode" />
+              <item name="i-signon-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="isignonserver" type="462c0819:PsiDirectoryNode" />
+              <item name="mappers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/ldap/ActiveDirectoryDomain.java" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\data\gitrepo\I-Signon\i-signon-server\src\main\resources\static" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -115,6 +503,104 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.TestPersonDao.display_name_text_search (1)">
+    <configuration name="TestPersonDao.display_name_text_search (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="isignonserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.gc.cra.kr.apps.isignon.isignonserver.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.gc.cra.kr.apps.isignon.isignonserver.dao" />
+      <option name="MAIN_CLASS_NAME" value="ca.gc.cra.kr.apps.isignon.isignonserver.dao.TestPersonDao" />
+      <option name="METHOD_NAME" value="display_name_text_search(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPersonDao.display_name_text_search" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="isignonserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.gc.cra.kr.apps.isignon.isignonserver.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.gc.cra.kr.apps.isignon.isignonserver.dao" />
+      <option name="MAIN_CLASS_NAME" value="ca.gc.cra.kr.apps.isignon.isignonserver.dao.TestPersonDao" />
+      <option name="METHOD_NAME" value="display_name_text_search" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPersonDao.findByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="isignonserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.gc.cra.kr.apps.isignon.isignonserver.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.gc.cra.kr.apps.isignon.isignonserver.dao" />
+      <option name="MAIN_CLASS_NAME" value="ca.gc.cra.kr.apps.isignon.isignonserver.dao.TestPersonDao" />
+      <option name="METHOD_NAME" value="findByUserId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPersonRepository.findAllByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="isignonserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.gc.cra.kr.apps.isignon.isignonserver.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.gc.cra.kr.apps.isignon.isignonserver.ldap" />
+      <option name="MAIN_CLASS_NAME" value="ca.gc.cra.kr.apps.isignon.isignonserver.ldap.TestPersonRepository" />
+      <option name="METHOD_NAME" value="findAllByUserId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPersonRepository.findByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="isignonserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.gc.cra.kr.apps.isignon.isignonserver.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.gc.cra.kr.apps.isignon.isignonserver.ldap" />
+      <option name="MAIN_CLASS_NAME" value="ca.gc.cra.kr.apps.isignon.isignonserver.ldap.TestPersonRepository" />
+      <option name="METHOD_NAME" value="findByUserId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestPersonRepository.findByUserId" />
+      <item itemvalue="JUnit.TestPersonRepository.findAllByUserId" />
+      <item itemvalue="JUnit.TestPersonDao.findByUserId" />
+      <item itemvalue="JUnit.TestPersonDao.display_name_text_search" />
+      <item itemvalue="JUnit.TestPersonDao.display_name_text_search (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestPersonDao.display_name_text_search (1)" />
+        <item itemvalue="JUnit.TestPersonDao.display_name_text_search" />
+        <item itemvalue="JUnit.TestPersonDao.findByUserId" />
+        <item itemvalue="JUnit.TestPersonRepository.findAllByUserId" />
+        <item itemvalue="JUnit.TestPersonRepository.findByUserId" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1d983607-5dcb-45f8-93bd-a7708a905659" name="Default Changelist" comment="" />
@@ -125,58 +611,320 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestPersonDao_display_name_text_search - 2018.09.11 at 13h 04m 58s.xml">
+      <configuration name="TestPersonDao.display_name_text_search" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPersonDao_display_name_text_search - 2018.09.11 at 13h 07m 37s.xml">
+      <configuration name="TestPersonDao.display_name_text_search" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPersonDao_display_name_text_search - 2018.09.11 at 13h 08m 55s.xml">
+      <configuration name="TestPersonDao.display_name_text_search" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPersonDao_display_name_text_search - 2018.09.11 at 13h 31m 39s.xml">
+      <configuration name="TestPersonDao.display_name_text_search" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPersonDao_display_name_text_search - 2018.09.11 at 13h 44m 29s.xml">
+      <configuration name="TestPersonDao.display_name_text_search" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPersonDao_display_name_text_search - 2018.09.11 at 13h 44m 30s.xml">
+      <configuration name="TestPersonDao.display_name_text_search" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPersonDao_display_name_text_search_(1) - 2018.09.11 at 14h 28m 26s.xml">
+      <configuration name="TestPersonDao.display_name_text_search (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPersonDao_display_name_text_search_(1) - 2018.09.11 at 15h 05m 56s.xml">
+      <configuration name="TestPersonDao.display_name_text_search (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPersonDao_display_name_text_search_(1) - 2018.09.11 at 15h 08m 35s.xml">
+      <configuration name="TestPersonDao.display_name_text_search (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPersonDao_display_name_text_search_(1) - 2018.09.11 at 15h 08m 36s.xml">
+      <configuration name="TestPersonDao.display_name_text_search (1)" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25305623" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.29217604" />
+      <window_info id="Structure" order="1" sideWeight="0.5008347" side_tool="true" weight="0.2775061" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32922733" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32922733" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32922733" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32922733" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="20">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/i-signon-web/src/main/web/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-web/src/main/web/dist/web/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-web/src/main/web/dist/web/3rdpartylicenses.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/domain/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/controller/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/mappers/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/test/java/ca/gc/cra/kr/apps/isignon/isignonserver/ISignonServerApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/resources/META-INF/spring.xml" />
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/MySpringConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/mappers/PacmanComponentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/domain/PacmanComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/resources/mybatis-mappers/ComponentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="1195" column="6" selection-start-line="1195" selection-start-column="6" selection-end-line="1195" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/controller/Greeting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/configuration/MvcConfig.java" />
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/controller/GreetingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/resources/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="315" column="12" selection-start-line="315" selection-start-column="12" selection-end-line="315" selection-end-column="12" />
+        <state relative-caret-position="328">
+          <caret line="243" column="25" selection-start-line="239" selection-end-line="243" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/resources/static/index.html" />
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/controller/ComponentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/ldap/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/ldap/PersonRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/test/java/ca/gc/cra/kr/apps/isignon/isignonserver/ldap/TestPersonRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="27" selection-end-line="56" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/test/java/ca/gc/cra/kr/apps/isignon/isignonserver/mappers/TestComponentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="47" selection-start-line="44" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/dao/PacmanComponentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/ldap/PersonRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/ldap/ActiveDirectoryAttributes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/ldap/LdapRepositoryConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/ldap/ActiveDirectoryDomain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/domain/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/test/java/ca/gc/cra/kr/apps/isignon/isignonserver/dao/TestPersonDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="73" column="16" lean-forward="true" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/configuration/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-signon-server/src/main/java/ca/gc/cra/kr/apps/isignon/isignonserver/dao/PersonDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="90" column="7" lean-forward="true" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -200,6 +948,19 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>I-Signon</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -214,6 +975,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

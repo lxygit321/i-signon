@@ -148,10 +148,8 @@
     -->
 
     <modules>
-        <!--
-        <module>isignon-server</module>
-        <module>isignon-client</module>
-        -->
+        <module>i-signon-server</module>
+        <module>i-signon-web</module>
     </modules>
 
     <!--
@@ -174,6 +172,18 @@
         <junit.platform.version>1.2.0</junit.platform.version>
         <apiguardian-version.version>1.0.0</apiguardian-version.version>
         <postgresql-jdbc.version>42.2.4</postgresql-jdbc.version>
+        <postgresql.version>9.4.1212</postgresql.version>
+        <springframework.boot.version>2.0.4.RELEASE</springframework.boot.version>
+        <failOnMissingWebXml>false</failOnMissingWebXml>
+        <exec-maven-plugin.version>1.6.0</exec-maven-plugin.version>
+        <mybatis-spring-boot-starter.version>1.3.2</mybatis-spring-boot-starter.version>
+        <lombok.vesion>1.18.2</lombok.vesion>
+        <opentest4j.version>1.1.0</opentest4j.version>
+        <!--
+        <frontend-maven-plugin.version>1.6</frontend-maven-plugin.version>
+        <npm.version>6.2.0</npm.version>
+        <node.version>10.9.0</node.version>
+        -->
     </properties>
 
     <!--
@@ -191,9 +201,26 @@
         <dependencies>
 
             <!--
-            =======================================================================
+            ===================================================================
+            = Spring Boot Dependencies                                       =
+            = This dependency is added since this POM is not using the Spring=
+            = Boot parent as its parent.                                     =
+            ===================================================================
+            -->
+
+            <dependency>
+                <!-- Import dependency management from Spring Boot -->
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${springframework.boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!--
+            ===================================================================
             = JUnit Dependencies                                                                                                                          ==
-            =======================================================================
+            ===================================================================
             -->
 
             <dependency>
@@ -202,6 +229,18 @@
                 <version>${junit-bom.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.opentest4j</groupId>
+                        <artifactId>opentest4j</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opentest4j</groupId>
+                <artifactId>opentest4j</artifactId>
+                <version>${opentest4j.version}</version>
             </dependency>
 
             <dependency>
@@ -217,9 +256,9 @@
             </dependency>
 
             <!--
-            =======================================================================
-            = Database and Data-Access-Layer Dependencies                        ==
-            =======================================================================
+            ====================================================================
+            = Database and Data-Access-Layer Dependencies                     ==
+            ====================================================================
             -->
 
             <dependency>
@@ -227,17 +266,35 @@
                 <artifactId>mybatis</artifactId>
                 <version>${mybatis.version}</version>
             </dependency>
+<!--
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis-spring</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+-->
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis-spring-boot-starter.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter-test</artifactId>
+                <version>${mybatis-spring-boot-starter.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>org.postgresql</groupId>
-                <artifactId>postgresql-jdbc</artifactId>
-                <version>${postgresql-jdbc.version}</version>
+                <artifactId>postgresql</artifactId>
+                <version>${postgresql.version}</version>
             </dependency>
 
             <!--
-            =======================================================================
-            = Other Dependencies                                                 ==
-            =======================================================================
+            ====================================================================
+            = Other Dependencies                                              ==
+            ====================================================================
             -->
 
             <dependency>
@@ -265,6 +322,12 @@
                 <version>${gson.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.vesion}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
@@ -287,6 +350,14 @@
     -->
 
     <build>
+        <!--
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+        -->
 
         <!--
         =======================================================================
@@ -313,7 +384,33 @@
         -->
 
         <plugins>
-            
+<!--
+
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <version>${springframework.boot.version}</version>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>repackage</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <version>2.7</version>
+                    <configuration>
+                        <delimiters>
+                            <delimiter>@</delimiter>
+                        </delimiters>
+                        <useDefaultDelimiters>false</useDefaultDelimiters>
+                    </configuration>
+                </plugin>
+-->
         </plugins>
 
     </build>

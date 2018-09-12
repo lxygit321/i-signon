@@ -1,0 +1,23 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="ca.gc.cra.kr.apps.isignon.isignonserver.mappers.PacmanComponentMapper">
+
+    <resultMap id="PacmanComponentResultMap" type="PacmanComponent">
+        <id column="handle" property="handle"/>
+        <result column="comp_id" property="componentId"/>
+        <result column="comp_name" property="componentName"/>
+    </resultMap>
+
+    <select id="findAllComponents" resultMap="PacmanComponentResultMap">
+        select
+            comp_id,
+            handle,
+            comp_name
+        from
+            extract.component_1
+        order by
+            comp_id
+    </select>
+</mapper>

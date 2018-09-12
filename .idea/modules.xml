@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/I-Signon.iml" filepath="$PROJECT_DIR$/.idea/I-Signon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/i-signon-server/isignonserver.iml" filepath="$PROJECT_DIR$/i-signon-server/isignonserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/i-signon-web/isignonweb.iml" filepath="$PROJECT_DIR$/i-signon-web/isignonweb.iml" />
     </modules>
   </component>
 </project>
