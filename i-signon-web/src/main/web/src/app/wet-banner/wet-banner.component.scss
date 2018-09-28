@@ -1,0 +1,35 @@
+.c1 {
+	vertical-align: bottom;
+	margin: 0;
+}
+
+.c2 {
+	text-align: right;
+	vertical-align: bottom;
+}
+
+/*
+#searchBar {
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#4474ad), color-stop(#4474ad), to(#174f88));
+   background-image: -webkit-linear-gradient(#4474ad, #4474ad, #174f88);
+   background-image: linear-gradient(#4474ad, #4474ad, #174f88);
+   height: 36pt;
+   color: white;
+   font-size: 24pt;
+   font-weight: bold;
+   font-family: sans-serif;
+}
+*/
+
+#searchBar{
+	background-image:-webkit-gradient(linear,left top,left bottom,from(#00556b),color-stop(#00556b),to(#00799c));
+	background-image:-webkit-linear-gradient(#00556b,#00556b,#00799c);
+	background-image:linear-gradient(#00556b,#00556b,#00799c);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#00556b', endColorstr='#00799c');
+	 height: 36pt;
+   color: white;
+   font-size: 24pt;
+   font-weight: bold;
+   font-family: sans-serif;
+   margin-top: 2.0pt;
+	}

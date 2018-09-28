@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+@import "variables";
+@import "~bootstrap/scss/bootstrap.scss";
+/* @import "~@angular/material/prebuilt-themes/indigo-pink.css"; */
+@import "~primeicons/primeicons.css";
+@import "~primeng/resources/themes/redmond/theme.scss";
+@import "~primeng/resources/primeng.min.css";
+/* @import "google-material-icons.css";
+@import "google-roboto-fontcss.css";
+*/
+
+
+body {
+  border: 1px white;
+  height: 100vh;
+  width: 100vw;
+}
+
+html, body { height: 100%; }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Roboto', sans-serif; }

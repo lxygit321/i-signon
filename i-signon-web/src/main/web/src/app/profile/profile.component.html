@@ -1,0 +1,62 @@
+
+	<form [formGroup]='profileForm'>
+		<p>
+		Value: {{ myForm.value | json }}
+		</p>
+
+		<div class='form-group'>
+		<label for="releaseFamilyInput" class="bmd-label-floating">Release Family Label</label>
+		<input 
+			    placeholder="Release Family" 
+			 	id='releaseFamilyInput'
+				name="releaseFamilyInput" 
+				type="text"
+				class="form-control" 
+				[formControl]='releaseFamily'
+		>
+		<span class="bmd-help">Please select a release family</span>
+		<span  *ngIf="releaseFamily.invalid && releaseFamily.touched">
+			You have not selected a release family.
+		</span>
+		</div>
+
+		<p>
+		<mat-form-field>
+		<mat-label></mat-label>
+		<input  matInput
+				placeholder="Component" 
+			 	id="componentInput"
+				name="componentInput" 
+				type="text"
+				[formControl]='component'
+		/>
+		<span *ngIf="component.invalid && component.touched">
+			You have not selected a component.
+		</span>
+		</mat-form-field>
+		</p>
+
+		<p>
+		<mat-form-field>
+		<mat-label></mat-label>
+		<input
+				matInput
+				placeHolder="Participation"
+			 	id="participationInput"
+				name="participationInput"
+				type="text" 
+				[formControl]="participation"
+		/>
+		<span *ngIf="participation.invalid && participation.touched">
+			You have not selected your participation.
+		</span>
+		</mat-form-field>
+	</p>
+		<p>
+		<button type='submit'
+				[disabled]='profileForm.invalid'
+		>
+			Submit
+		</button>
+	</p>
+	</form>

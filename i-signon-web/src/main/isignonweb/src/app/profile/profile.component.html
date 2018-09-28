@@ -1,0 +1,32 @@
+
+	<mat-card>
+	<form [formGroup]='profileFormGroup'>
+		<p>
+		Value: {{ profileFormGroup.value | json }}
+		</p>
+
+		<p>
+			Form Status: {{profileFormGroup.status}}
+		</p>
+
+		<p>
+			<mat-form-field>
+				<mat-label> Release Family</mat-label>
+				<mat-select
+						placeholder="Select a release family..."
+						formControlName="releaseFamily"
+						required
+				>
+				<mat-option>---</mat-option>
+				<mat-option *ngFor='let family of releaseFamilyList'
+							[value]='family.id'
+				>
+					{{family.name}}
+				</mat-option>
+				<mat-error>A release family has not been selected.</mat-error>
+			</mat-select>
+			</mat-form-field>
+		</p>
+
+	</form>
+</mat-card>
